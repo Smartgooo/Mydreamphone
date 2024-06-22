@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDreamPhone</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/loader.css'>
+
+    <script src='js/main.js'></script>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='css/buscador_styles.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/general_styles.css'>
+
+</head>
+<body>
+    <!-- LOADER -->
+    <div class="lds-ring loader" id="loader"><div></div><div></div><div></div><div></div></div>    
+    <!-- HEADER -->
+
+    <header>
+        <div class="header">
+            <div class="header__logo">
+                <span>MyDreamPhone</span>
+                <img src="img/icon.png">
+     
+            </div>
+
+            
+            
+            <nav>
+                <ul class="mainPanel">
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="uso.html">como usarlo</a></li>
+                    <li><a href="buscar.html">buscador</a></li>
+                </ul>
+                <div class="perfil">
+                    <div class="perfil__carrito">
+                        <a href="carrito.html"><img src="img/car.png"></a>
+                    </div>
+                    <div class="perfil__logo">
+                        <div class="perfil__logo-img">
+                            <img src="img/perfil.png">
+                        </div>
+                        <ul class="perfil__logo-botones">
+                            <li><a href="index.html">Configuracion</a></li>
+                            <li><a href="index.html">Perfil</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="main__buscador">
+            <h2>Busca tu modelo!</h2>
+            <div class="main__buscador--searcher">
+                <div class="searcher__input">
+                    <div class="searcher__input--precio atributo">
+                        <span>Presupuesto (S/.)</span>
+                        <div class="range-values">
+                            <span id="rangeMinValueP">20</span> <span id="rangeMaxValueP">1000</span>
+                        </div>
+                        <div class="double-range-slider sliderPrecio">
+                            <div></div>
+                            <input type="range" min="0" max="5000" value="20" id="rangeMinP" class="range-precio rangeMin">
+                            <input type="range" min="0" max="5000" value="1000" id="rangeMaxP" class="range-precio rangeMax">
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="searcher__input--mem atributo">
+                        <span>Almacenamiento (GB)</span>
+                        <select name ="ops-mem" id="ops-mem">
+                           <option selected disabled>Elige una opcion</option>
+                        </select>
+                    </div>
+                    <div class="searcher__input--ram atributo">
+                        <span>Ram (GB)</span>
+                        <select name="ops-ram" id="ops-ram" >
+                            <option selected disabled>Elige una opcion</option>
+ 
+                        </select>
+                    </div>
+
+                    <div class="searcher__input--cam  atributo">
+                        <span>Camara (MP)</span>
+                        <!--<select name="ops-camBACK" id="ops-camMAIN" >
+                            <option selected disabled>Elige una opcion</option>
+ 
+                        </select> -->
+                        <div class="range-values">
+                            <span id="rangeMinValueC"> 20</span> <span id="rangeMaxValueC">200</span>
+                        </div>
+                        <div class="double-range-slider sliderCam">
+                            <div></div>
+                            <input type="range" min="0" max="200" value="0" id="rangeMinC" class="range-cam rangeMin">
+                            <input type="range" min="0" max="200" value="200" id="rangeMaxC" class="range-cam rangeMax">
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="searcher__input--opcional atributo opcional">
+                        <span>Marca (opcional)</span>
+                        <select name="ops-marca" id="ops-marca" >
+                            <option selected disabled>Elige una opcion</option>
+ 
+                        </select>
+                    </div>
+
+
+                    <button class="searcher__input--send"> Buscar </button>
+
+                </div>
+                <div class="searcher__output">
+                    <div class="searcher__output--contenedor">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+
+
+    <footer>
+        <p>© Copyright MyDreamPhone-2024</p>
+    </footer>
+
+    <script type="module" src='js/searcher.js'></script>
+
+</body>
+</html>

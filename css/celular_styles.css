@@ -1,0 +1,140 @@
+.main__celular {
+    width: 80vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 4px 20px 0.1px #000;
+    margin-top: 2vh;
+
+}
+
+.main__celular--item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5vw;
+    gap: 2vw;
+}
+
+.celular__img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.celular__slider {
+    padding: 1vw;
+
+}
+
+.celular__slider img{
+    width: 30vw;
+    background-color: rgb(241, 248, 248);
+    box-shadow: 1px 1px 10px 0.2px #000;
+    border-radius: 1vw;
+    height: 60vh;
+
+}
+
+.celular__button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.celular__button img {
+
+    width: 5vw;
+    height: 10vh;
+    background-color: aliceblue;
+    box-shadow: 0.3px 0.3px 1px 0.2px #000;
+    
+}
+
+.celular__info {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3vh;
+    gap: 5vh;
+    
+}
+
+
+.celular__info--title {
+    font-weight: bolder;
+    padding-left: 1vw;
+    font-size: 2.7vw;
+   
+}
+
+.celular__info--datos {
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+
+.celular__btns {
+    padding-left: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.celular__btns button {
+    padding: 1vw;
+    border: none;
+}
+
+.datos-cam-btn {
+    display: grid;
+    grid-template-columns: 20fr 1fr;
+    border-top: 2px dashed #cccccc;
+    border-bottom: 2px dashed #cccccc;
+    padding: 2vh 0;
+    
+
+}
+
+.datos-mem-btn {
+    display: grid;
+    grid-template-columns: 20fr 1fr;
+    border-top: 2px dashed #cccccc;
+    border-bottom: 2px dashed #cccccc;
+    padding: 2vh 0;
+
+
+}
+
+.datos-cam-ul {
+    display: none;
+}
+
+.datos-mem-ul {
+    display: none;
+}
+
+.open1, .open3 {
+    display: block;
+    list-style: none;
+    margin: 2vh 0 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 0.85fr 1fr;
+    font-size: 1vw;
+
+    text-align: center;
+
+
+}
+
+
+.first-li {
+    border-right: 2px dashed #000;
+    
+}
+

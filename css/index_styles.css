@@ -1,0 +1,104 @@
+.main__recommend {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__recommend__contenedor{
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(233, 233, 255);
+    margin: 4vh 14vw 4vh 14vw;
+    width: 71vw;
+    gap: 3vh;
+    padding: 1.4vw;
+    border-radius: 1vw;
+}
+
+.main__recommend__contenedor h2 {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.main__recommend--items {
+    width: 100%;
+    display: flex;
+    overflow-x:scroll;
+    gap: 3vw;
+
+    
+    
+}
+
+.main__recommend--item {
+    background-color: rgb(184, 207, 255);
+    padding: 0.5vw;
+    border-radius: 0.9VW;
+    font-size: 1vw;
+}
+
+.cel {
+    margin-bottom: 1vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main__recommend--item img {
+    width: 15.7vw;
+    height: 25vh;
+    background-color: white;
+}
+
+
+/*ALEATORIO*/
+
+.main__random {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__random__contenedor{
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(255, 242, 215);
+    margin: 4vh 14vw 4vh 14vw;
+    width: 72vw;
+    gap: 3vh;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+.main__random__contenedor h2 {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.main__random--items {
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 100%;
+    background-color: antiquewhite;
+    display: grid;
+
+    gap: 3vw;
+
+    
+    
+}
+
+.main__random--item {
+    background-color: rgb(255, 225, 127);
+    font-size: 1vw;
+    padding: 1vw;
+    border-radius: 0.8vw;
+    
+}
+
+.main__random--item img {
+    width: 13.5vw;
+    background-color: white;
+    height: 25vh;
+
+}
+

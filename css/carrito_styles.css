@@ -1,0 +1,51 @@
+.main {
+    height: 100vh;
+}
+.main__recommend {
+    width: 100vw;
+    background-color: aqua;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main__contenedor--title{
+    flex-direction: column;
+    display: flex;
+    background-color: blue;
+    margin: 4vh 14vw 4vh 14vw;
+    width: 72vw;
+    gap: 3vh;
+}
+
+.main__container--title h2 {
+    margin: 4vh 0;
+    font-size: 2.5vw;
+}
+
+.main__whishes {
+    width: 100%;
+    display: flex;
+    width: 72vw;
+    margin-top: 3vh;
+    overflow-y: hidden;
+    overflow-x:scroll;
+    gap: 3vw;
+
+    
+    
+}
+
+.main__whishes--item {
+    background-color: aquamarine;
+    font-size: 1vw;
+    height: 39vh;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+.main__whishes--item img {
+    width: 15.7vw;
+    height: 25vh;
+    background-color: white;
+}
