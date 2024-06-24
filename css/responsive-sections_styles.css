@@ -1,0 +1,169 @@
+
+@media (max-width: 700px) {
+
+    /*INDEX*/
+    
+    .main__recommend__contenedor{
+        padding: 4vw;
+    }
+
+    .main__recommend__contenedor h2{
+        font-size: 6vw;
+    }
+
+    .main__recommend--item {
+        padding: 2vw;
+    }
+    .main__recommend--item span, a{
+        font-size: 4vw;
+    }
+
+    .main__recommend__contenedor img {
+        width: 50vw;
+        height: 30vh; 
+
+    }
+
+    /****/
+
+    .main__random__contenedor{
+        padding: 4vw;
+    }
+
+    .main__random__contenedor h2{
+        font-size: 6vw;
+    }
+
+    .main__random--items {
+        grid-template-columns: 1fr;
+    }
+    .main__random--item {
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        gap: 2vh;
+    }
+    .main__random--item span, a{
+        font-size: 5vw;
+        text-align: start;
+        width: 100%;
+    }
+
+    .main__random__contenedor img {
+        width: 50vw;
+        height: 30vh; 
+
+    }
+
+
+
+    /*BUSCADOR*/
+    .main {
+        height: auto;
+    }
+
+    .main__buscador {
+        width: 80%;
+        align-items: center;
+        height: auto;
+    }
+
+    .main__buscador h2{
+        padding: 2vw;
+    
+        font-size: 7vw;
+    }
+    .main__buscador--searcher{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 96%;
+
+    }
+
+    .searcher__input {
+        padding: 5vw;
+    }
+    .atributo span{
+        font-size: 4vw;
+    }
+
+    .atributo select {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    .main__buscador--searcher button{
+        font-size: 4vw;
+        padding: 4vw;
+    }
+
+    .searcher__output {
+        height: 77vh;
+    }
+
+    .main__recommend--item {
+        width: 70vw;
+        align-items: start;
+        padding: 3.9vw;
+    }
+
+    .main__recommend--item img{
+        width: 65vw;
+        align-self: center;
+    }
+
+    /*CARRITO*/
+
+
+
+    .main__container--title h2{
+        font-size: 7vw;
+    }
+
+
+    .main__whishes--item {
+        padding: 4vw;
+        display: flex;
+        flex-direction: column;
+        gap:2vh;
+        height: auto;
+    
+    }
+    .main__whishes--item span, a{
+        font-size: 4vw;
+    }
+
+    .main__whishes--item img {
+        width: 50vw;
+        height: 30vh; 
+
+    }
+
+    footer {
+        margin-top: 9vh;
+    }
+
+    /*TUTORIAL*/
+
+    .main__contenedor--video {
+        width: 90vw;
+    }
+
+    .main__contenedor--video h2{
+        font-size: 7vw;
+        text-align: center;
+    }
+
+    .main__contenedor--video video {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .main__contenedor--info div {
+        width: 100%;
+        font-size: 4vw;
+    }
+
+}

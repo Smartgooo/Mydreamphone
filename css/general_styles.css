@@ -10,6 +10,9 @@ body{
 
 }
 
+
+
+
 .header {
 
     background-color: rgb(255, 255, 255);
@@ -52,6 +55,11 @@ body{
 nav{
     display: flex;
     align-items: center;
+}
+.header__nav--inf{
+    display: flex;
+    align-items: center;
+    
 }
 
 nav ul {
@@ -139,7 +147,9 @@ nav a{
 
 }
 
-
+.perfil__carrito span {
+    display: none;
+}
 
 .main {
     width: 100vw;
