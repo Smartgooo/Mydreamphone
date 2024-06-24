@@ -58,6 +58,7 @@ nav{
 }
 .header__nav--inf{
     display: flex;
+    flex-direction: row;
     align-items: center;
     
 }
