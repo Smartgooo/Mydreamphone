@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .header__nav--inf{
+    display: flex;
+    
+  }
 @media (max-width: 700px) {
 
     
