@@ -1,4 +1,5 @@
 
+
 @media (max-width: 700px) {
 
     /*INDEX*/
@@ -165,5 +166,64 @@
         width: 100%;
         font-size: 4vw;
     }
+
+
+    /*CELULAR ELEGIDO*/
+
+    .main__celular {
+        height: auto;
+        padding: 4vh 2vw;
+    }
+
+    .main__celular--item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .celular__img {
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .celular__slider img{
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .celular__button img {
+        width: 13vw;
+        height: 9vh;
+    }
+
+    .celular__info{
+        margin-top: 2vh;
+    }
+    .celular__info--title span{
+        font-size: 6vw;
+
+    }
+
+    .celular__info--datos span{
+        font-size: 4vw;
+
+    }
+
+    .cam-btnSlider  {
+        font-size: 4vw;
+    }
+
+    .mem-btnSlider  {
+        font-size: 4vw;
+    }
+
+    .datos-cam-ul li{
+        font-size: 3.7vw;
+    }
+
+    .datos-mem-ul li{
+        font-size: 3.7vw;
+    }
+
+
 
 }
